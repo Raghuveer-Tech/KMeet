@@ -1,5 +1,8 @@
-let IS_PROD = true;
-const server = IS_PROD ? "https://kmeet-8dmq.onrender.com" : "http://localhost:8000"
+
+const server = {
+    dev : "http://localhost:8000",
+    prod : "https://apnacollegebackend.onrender.com"
+}
 
 
 export default server;

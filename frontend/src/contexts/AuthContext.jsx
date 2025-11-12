@@ -8,7 +8,7 @@ import server from "../environment";
 export const AuthContext = createContext({});
 // http://localhost:8000/api/v1/users` videomeet and change localhost server.prod
 const client = axios.create({
-    baseURL: `${server}/api/v1/users`
+    baseURL: `${server.prod}/api/v1/users`
 })
 
 
